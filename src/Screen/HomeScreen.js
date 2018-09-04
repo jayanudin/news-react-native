@@ -7,9 +7,8 @@ import {
 } from "react-native";
 import { Icon, Button, Container, Header, Content, Left, Right, Card, Body, CardItem, Thumbnail, Text } from 'native-base'
 
-
-
 import CustomHeader from './../CustomHeader'
+import ThumbnailCompoent from './Components/ThumbnailComponent';
 
 export default class HomeScreen extends React.Component {
 
@@ -35,24 +34,7 @@ export default class HomeScreen extends React.Component {
                 <CustomHeader title="Home" drawerOpen={() => this.props.navigation.openDrawer()} />
 
                 <Content style={{ padding: 20, marginBottom: 20 }}>
-                    <Card style={{ flex: 0 }}>
-                        <CardItem>
-                            <Left>
-                                <Image source={{ uri: './../../assets/DrawerIcons/Unsure-Programmer-Logo.png' }} style={{ height: 200, width: null, flex: 1 }} />
-                                <Body>
-                                    <Text>NativeBase</Text>
-                                    <Text note>April 15, 2016</Text>
-                                </Body>
-                            </Left>
-                        </CardItem>
-                        <CardItem>
-                            <Body>
-                                <Text>
-                                    his tutorial series which Covers a tab boilerplate to help you quickly get your tab based app setup. It uses custom fonts, ex-navigation and nativebase components saving you a lot of setup and exploration time
-                                </Text>
-                            </Body>
-                        </CardItem>
-                    </Card>
+                    <ThumbnailCompoent />
                 </Content>
 
             </Container>
