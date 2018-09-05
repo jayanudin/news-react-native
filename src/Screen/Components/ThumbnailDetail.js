@@ -14,7 +14,7 @@ export default class ThumbnailDetail extends React.Component {
         return (
             <Container>
                 <Content>
-                    
+                    <Text>Detail</Text>
                 </Content>
             </Container>
         );

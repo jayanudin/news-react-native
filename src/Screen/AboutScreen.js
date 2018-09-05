@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { Icon, Button, Container, Header, Content, Left } from 'native-base'
 
-import CustomHeader from './../CustomHeader'
+import CustomHeader from '../CustomHeader'
 
 export default class AboutScreen extends React.Component {
 

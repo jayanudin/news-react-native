@@ -13,7 +13,7 @@ import AboutScreen from './src/Screen/AboutScreen'
 import HomeScreen from './src/Screen/HomeScreen';
 
 export default class App extends React.Component {
-  
+
 
   render() {
     return (
