@@ -15,18 +15,6 @@ import ThumbnailDetail from './Components/ThumbnailDetail';
 
 export default class HomeScreen extends React.Component {
 
-    // static navigationOptions = ({ navigation }) => ({
-    //     title: "Home",
-    //     headerLeft: <Icon name="ios-menu" style={{ paddingLeft: 10 }} onPress={() => this.props.navigation.openDrawer()} />,
-    //     drawerLabel: 'Home',
-    //     drawerIcon: ({ tintColor }) => (
-    //         <Image
-    //             source={require('./../../assets/DrawerIcons/home.png')}
-    //             style={styles.icon}
-    //         />
-    //     ),
-    // })
-
     render() {
         return (
 
